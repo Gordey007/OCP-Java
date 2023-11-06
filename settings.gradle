@@ -1,0 +1,15 @@
+rootProject.name = 'OCP-Java'
+
+include 'Whizlabs'
+
+include 'Whizlabs:Section-Tests'
+findProject(':Whizlabs:Section-Tests')?.name = 'Section-Tests'
+
+include 'Whizlabs:Section-Tests:Working-With-Inheritance-17'
+findProject(':Whizlabs:Section-Tests:Working-With-Inheritance-17')?.name = 'Working-With-Inheritance-17'
+
+include 'Whizlabs:Section-Tests:Handling-Exceptions-18'
+findProject(':Whizlabs:Section-Tests:Handling-Exceptions-18')?.name = 'Handling-Exceptions-18'
+include 'Whizlabs:Section-Tests:Working-With-Selected-Classes-From-The-Java-API-19'
+findProject(':Whizlabs:Section-Tests:Working-With-Selected-Classes-From-The-Java-API-19')?.name = 'Working-With-Selected-Classes-From-The-Java-API-19'
+
