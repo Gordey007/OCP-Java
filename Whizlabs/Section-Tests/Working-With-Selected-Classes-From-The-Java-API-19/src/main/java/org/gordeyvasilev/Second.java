@@ -10,7 +10,7 @@ public class Second {
         i.add(1);
         i.add(3);
         i.add(4);
-        i.add(2, 3);
+        i.add(2, 3); // similarly in sb.insert(2, 3l)
 
         i.removeIf(e -> e < 3);
 

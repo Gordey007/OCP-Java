@@ -9,6 +9,7 @@ public class Seventh {
     public static void main(String[] args) {
         LocalDate ld =  LocalDate.of(-1,1,1);
 
+        // Because they added time.
         LocalDateTime ldt = ld.atTime(10, 10);
 
         System.out.println(ld);
