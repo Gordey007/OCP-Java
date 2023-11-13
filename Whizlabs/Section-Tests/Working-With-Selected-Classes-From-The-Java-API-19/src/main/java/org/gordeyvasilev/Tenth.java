@@ -1,3 +1,5 @@
+package org.gordeyvasilev;
+
 public class Tenth {
     public static void main(String[] args) {
         // create 1 string
